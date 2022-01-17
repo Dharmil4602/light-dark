@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    transition: all 0.1s linear;
+}
+
+body.active
+{
+background-color: rgb(24, 22, 22);
+color: white;
+}
+
+#theme-toggler
+{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 30px;
+    background-color: rgba(173, 173, 159, 0.301);
+    padding: 1rem;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.container
+{
+    display: flex;
+    /* padding: 0.6rem; */
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    width: 80%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container .first-para
+{
+background-color: rgba(48, 231, 176, 0.199);
+margin: 1rem;
+padding: 1rem;
+border-radius: 2rem;
+font-size: 1rem;
+}
+
+.container .second-para
+{
+background-color: rgba(231, 147, 37, 0.329);
+margin: 1rem;
+padding: 1rem;
+border-radius: 2rem;
+font-size: 1rem;
+}
